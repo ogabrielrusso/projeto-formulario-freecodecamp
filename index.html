@@ -1,0 +1,90 @@
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Formulário de cadastro</title>
+
+        <link rel="stylesheet" href=/style.css>
+
+</head>
+
+<body>
+        <div class="Top">
+                <h1 id="title">FORMULÁRIO DE CADASTRO ESTUDANTIL</h1>
+                <p id="description">Preencha todos os campos para ingressar em um de nossos cursos</p>
+        </div>
+        <form id="survey-form">
+                <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <label id="name-label">
+                                Nome: <input type="text" id="name" placeholder="Nome" required />
+                        </label>
+                        <label id="email-label">
+                                E-mail: <input type="email" id="email" placeholder="E-mail" required />
+                        </label>
+                        <label id="number-label">
+                                Idade: <input type="number" id="number" min="18" max="100" placeholder="Idade" />
+                        </label>
+                </fieldset>
+                <fieldset>
+                        <legend>Cursos:</legend>
+                        <select id="dropdown">
+                                <option value="1">Selecionar Curso</option>
+                                <option value="2">Engenharia da Computação</option>
+                                <option value="3">Ciência da Computação</option>
+                                <option value="4">Tecnologia da Informação</option>
+                        </select>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Turno:</legend>
+                        <label>
+                                <input type="radio" name="availability" value="morning" class="inline" />Matutino
+                        </label>
+                        <label>
+                                <input type="radio" name="availability" value="evening" class="inline" />Vespertino
+                        </label>
+                        <label>
+                                <input type="radio" name="availability" value="nocturnal" class="inline" />Noturno
+                        </label>
+                </fieldset>
+                <fieldset>
+                        <legend>Quais linguagens de marcação/programação você está mais empolgado para aprender?
+                        </legend>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">HTML
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">CSS
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">JavaScript
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">Python
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">JAVA
+                        </label>
+                        <label>
+                                <input type="checkbox" value="sectors" class="inline">C#
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">TypeScript
+                        </label>
+                        <label>
+                                <input type="checkbox" value="learn" class="inline">PHP
+                        </label>
+                </fieldset>
+                <fieldset>
+                        <legend>Descreva um pouco sobre seu interesse em tecnologia:</legend>
+                        <textarea rows="8" cols="40" id="comments"
+                                placeholder="Gosto muito de tecnologia porque..."></textarea>
+                        </label>
+                </fieldset>
+                <input type="submit" id="submit" value="Enviar" />
+        </form>
+</body>
+
+</html>
