@@ -1,6 +1,6 @@
-# 📋 Projeto formulário Freecodecamp
+# 🔥 Projeto formulário Freecodecamp
 
-## Formulário  de cadastro estudantil
+## 📋 Formulário  de cadastro estudantil
 
 __Desafio proposto:__
 
